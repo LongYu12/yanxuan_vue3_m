@@ -1,0 +1,1 @@
+import{d as t,c as a,a as o,w as n,F as s,b as r,r as c,o as _,e as m}from"./index-ff2f3f89.js";const p=r("div",null,"Home",-1),f=t({__name:"index",setup(d){return(l,u)=>{const e=c("van-button");return _(),a(s,null,[p,o(e,{type:"primary"},{default:n(()=>[m("主要按钮")]),_:1})],64)}}});export{f as default};

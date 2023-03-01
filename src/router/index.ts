@@ -41,9 +41,6 @@ export const asyncRoutes = [
       path: '/Login',
       name: 'Login',
       component: () => import('@/views/Login/index.vue'),  
-      meta: {  
-        isShowNav: false 
-      }
     },
 ]
 
