@@ -8,8 +8,8 @@ import postCssPxToRem from 'postcss-pxtorem';
 export default defineConfig({
   plugins: [vue()],
   // 打包路径设置
-  // base: process.env.NODE_ENV === 'production' ? './' : '/', 
-  base: '/yanxuan_vue3_m/',
+  base: process.env.NODE_ENV === 'production' ? './' : '/', 
+  // base: '/yanxuan_vue3_m/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

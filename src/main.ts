@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import 'amfe-flexible'
+import './assets/less/base.less'
 import App from './App.vue'
 import router from './router'
 
